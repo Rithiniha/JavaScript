@@ -1,0 +1,11 @@
+let total = 200;
+
+if (total>100 && total <500) {
+    
+    amount = total - total * 0.10;
+    console.log(amount);
+}
+else if (total > 500) {
+    amount = total - total * 0.15;
+    console.log(amount);
+}
