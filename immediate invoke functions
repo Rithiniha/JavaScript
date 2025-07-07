@@ -1,0 +1,7 @@
+//create a private scope 
+
+(function f(){
+    let animal = "Dinosaur";
+console.log(animal);
+}) ();
+
