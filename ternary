@@ -1,0 +1,6 @@
+function voting(age) {
+
+    const vote = age>18 ? "You can vote" : "You cannot vote"
+       console.log(vote);
+}
+voting(20);
