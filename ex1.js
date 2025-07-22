@@ -1,4 +1,4 @@
-function A(callback){
+function A(callback) {
     setTimeout(() => { console.log("1");
         callback();
   }, 3000);}
@@ -6,7 +6,7 @@ function B(callback){
     setTimeout(() => {console.log("2");
         callback();
   }, 2000);}
-function C(){
+function C() {
     setTimeout(() => { console.log("3");
   }, 1000);}
 function final(A1,B1,C1) {
