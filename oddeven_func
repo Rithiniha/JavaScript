@@ -1,4 +1,4 @@
-function oddeven(num){
+function oddeven(num) {
 if (num == 0) {
    console.log("Num is 0"); 
 }
